@@ -9,5 +9,11 @@ void prosedurinputData(){
     cin >> d2;
 }
 
-float HitungLuasBerapameter(float d1, float d2){
+float HitungLuasBerapameter(float d1, float d2)
+{
+  return 0.5 * d1 * d2;
+}
+
+void ProsedurOutput(){
+    cout << "Luas ketupat : " << HitungLuasBerapameter(d1, d2);
 }
