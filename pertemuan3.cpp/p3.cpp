@@ -13,3 +13,10 @@ void input(){
 int luaspersegi(int a,int b){
     return p * l;
 }
+void output(){
+    cout << "hasilnya : " << luaspersegi( p,l) << endl;
+}
+int main(){
+    input();
+    output();
+} //selesai
